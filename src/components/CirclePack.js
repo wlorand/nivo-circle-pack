@@ -18,7 +18,7 @@ const CirclePack = () => (
       value="loc"
       colors={['#7b3294', '#c2a5cf', '#f7f7f7', '#a6dba0', '#008837']} // { scheme: 'category10' }
       padding={20}
-      labelSkipRadius={0}
+      labelSkipRadius={8}
       labelTextColor="black"
       borderWidth={1}
       borderColor="#000000"
