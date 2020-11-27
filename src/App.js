@@ -1,5 +1,9 @@
 // import React from 'react'; // no need in React 17
 
+// mock-data
+// import chartLibData from './mock-data/chartLibData';
+import assetPlatformSegments from './mock-data/assetPlatformSegments';
+
 // child components
 import CirclePack from './components/CirclePack';
 
@@ -10,9 +14,9 @@ function App() {
   return (
     <div>
       <header className="app-header">
-        <h1>Nivo Circle Packing: Website Sitemap</h1>
+        <h1>Nivo Circle Packing: AIMM Platform Segments</h1>
       </header>
-      <CirclePack />
+      <CirclePack data={assetPlatformSegments} />
     </div>
   );
 }
