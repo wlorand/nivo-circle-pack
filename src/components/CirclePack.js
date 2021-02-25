@@ -8,8 +8,8 @@ import '../styles/app.css';
 
 const CirclePack = ({ data }) => {
   return (
-    <div className="chart-height-400">
-      <h3 className="panel-title">{data.name}</h3>
+    <div className="chart-container">
+      <h2 className="panel-title">{data.name}</h2>
       <ResponsiveBubble
         root={data}
         margin={{ top: 20, right: 20, bottom: 20, left: 20 }}

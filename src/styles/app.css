@@ -13,12 +13,12 @@ body {
   justify-content: center;
 }
 
-.chart-height-400 {
-  height: 400px;
-}
-
 .panel-title {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.chart-container {
+  height: 600px;
 }
